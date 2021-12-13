@@ -73,7 +73,7 @@ border: solid rgb(0, 174, 255);
     height: 720px;
 }
 .itembox.covers:hover{
-    transform: scale(1.03);
+    transform: scale(1.0);
     transition: ease-in-out 0.5s;
     overflow-y: auto;
 

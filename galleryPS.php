@@ -14,7 +14,6 @@ if(!isset($_SESSION['username'])){
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="gallerystyle.css" />
     <title>Gallery</title>
-
   </head>
   <body>
     <section>
@@ -25,7 +24,10 @@ if(!isset($_SESSION['username'])){
         <li class="list" data-filter="logos">Logos</li>
         <li class="list" data-filter="artworks">Artworks</li>
         <li class="list" data-filter="covers">Covers</li>
-        <a href="main.php" style="margin-left: 29.2%; background-color:aqua; color:black;"><li class="list" class="homeli">Back to Home</li></a>
+        
+        <a href="tutorials.php" style="margin-left: 18.5%; background-color:rgb(0, 174, 255); color:black;"><li class="list">Tutorials</li></a>
+        <a href="main.php" style="background-color:rgb(0, 174, 255); color:black"><li class="list">Back to Home</li></a>
+        
         
       </ul>
 
@@ -47,20 +49,18 @@ if(!isset($_SESSION['username'])){
         <div class="itembox banners"><img src="gallery img\Photoshop\banner (4).png"></div>
         <div class="itembox banners"><img src="gallery img\Photoshop\banner (3).png"></div>
         <div class="itembox banners"><img src="gallery img\Photoshop\banner (1).png"></div>
-        
 
         <div class="itembox covers"><img src="gallery img\Illustrator\golden-roses.png"></div>
-        <div class="itembox covers"><img src="gallery img\Illustrator\alone-sadness.png"></div>
+        <div class="itembox covers"><img src="gallery img\Illustrator\artworks (1).png"></div>
         <div class="itembox covers"><img src="gallery img\Illustrator\Sw-inging-by-a-thread.png"></div>
+        <div class="itembox covers"><img src="gallery img\Illustrator\artworks (3).png"></div>
 
         <div class="itembox artworks"><img src="gallery img\Photoshop\artwork (2).png"></div>
         <div class="itembox artworks"><img src="gallery img\Photoshop\artwork (3).png"></div>
         <div class="itembox artworks"><img src="gallery img\Photoshop\artwork (4).png"></div>
         <div class="itembox artworks"><img src="gallery img\Photoshop\artwork (1).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\Nanelien-8.png"></div>
-        <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (1).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (2).png"></div>
-        <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (3).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (4).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (5).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (6).png"></div>
