@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="gallerystyle.css" />
-    <title>Gallery</title>
+    <title>n.z.Gallery</title>
   </head>
   <body>
     <section>
@@ -25,10 +25,11 @@ if(!isset($_SESSION['username'])){
         <li class="list" data-filter="artworks">Artworks</li>
         <li class="list" data-filter="covers">Covers</li>
         
-        <a href="tutorials.php" style="margin-left: 18.5%; background-color:rgb(0, 174, 255); color:black;"><li class="list">Tutorials</li></a>
+        <a href="tutorials.php" style="margin-left: 6.6%; background-color:rgb(0, 174, 255); color:black;"><li class="list">Tutorials</li></a>
+        <a href="aftereffects.php" style="background-color:rgb(0, 174, 255); color:black;"><li class="list">Video Edits</li></a>
         <a href="main.php" style="background-color:rgb(0, 174, 255); color:black"><li class="list">Back to Home</li></a>
         
-        
+      
       </ul>
 
       <div class="work">
@@ -65,6 +66,7 @@ if(!isset($_SESSION['username'])){
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (5).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\artworks (6).png"></div>
         <div class="itembox artworks"><img src="gallery img\Illustrator\1.png"></div>
+        <div class="itembox artworks"><img src="gallery img\Illustrator\norsksad1.png"></div>
         <p style="opacity: 10%; color:white; margin:100px">All rights reserved by @n.z.daNNy</p>
       </div>
     </section>

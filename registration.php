@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>n.z.Register</title>
     <link rel="stylesheet" type="text/css" href="stylelogin.css"></head>
 <body>
 <?php
@@ -94,7 +94,7 @@ if(!$uppercase || !$lowercase || !$number || strlen($password) < 8) {
                         
                     </div>
                     <div class="inputBox">
-                        <input type="reset" value="Reset" style="background: rgb(218, 33, 255);
+                        <input type="reset" value="Reset" style="background: rgba(116, 1, 161, 0.404);
     color: #fff;
     max-width: 88px;
     cursor: pointer;

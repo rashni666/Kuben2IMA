@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Login</title>
+    <title>n.z.Log in</title>
     <link rel="stylesheet" href="stylelogin.css"/>
 </head>
 <body>

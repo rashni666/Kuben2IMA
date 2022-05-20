@@ -51,55 +51,8 @@ section ul li.active
     flex-wrap: wrap;
 }
 
-.work .itembox
-{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-}
-.itembox.banners:hover{
-    transform: scale(1.21);
-    transition: ease-in-out 0.5s;
-    overflow-y: auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
 .homeli{
 border: solid rgb(0, 174, 255);
-}
-.itembox.banners {
-    width: 1280px;
-    height: 720px;
-}
-.itembox.covers:hover{
-    transform: scale(1.0);
-    transition: ease-in-out 0.5s;
-    overflow-y: auto;
-
-}
-.itembox.avatars:hover{
-    transform: scale(1.05);
-    transition: ease-in-out 0.5s;
-    overflow-y: auto;
-}
-.itembox.logos:hover{
-    transform: scale(1.05);
-    transition: ease-in-out 0.5s;
-    overflow-y: auto;
-}
-.itembox.artworks:hover{
-    transform: scale(1.03);
-    transition: ease-in-out 0.5s;
-    overflow-y: auto;
-}
-.itembox.covers {
-    width: 610px;
-    height: 610px;
-}
-.itembox.artworks {
-    width: 610px;
-    height: 610px;
 }
 
 .work .itembox img

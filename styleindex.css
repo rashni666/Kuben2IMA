@@ -21,6 +21,8 @@ body{
     justify-content: space-between;
     background:linear-gradient(blueviolet, deeppink);
     padding:5.5rem;
+    background-image: url("gallery img/44444444444444444444.png");
+    background-size:  100%;
 }
 
 section{
@@ -115,7 +117,7 @@ header .navbar ul li a:hover{
 }
 
 .container{
-    height:58rem;
+    height:63.5rem;
     width:80rem;
     background:rgba(255,255,255,.2);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
@@ -312,6 +314,34 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box p{
+    font-size: 1.3rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box2 .year{
+    font-size: 2rem;
+    color:#eee;
+    position: relative;
+}
+
+.education .box-container .box2 .year::before{
+    content:'';
+    position: absolute;
+    top:.3rem; left: -3.1rem;
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+    background:#fff;
+}
+
+.education .box-container .box2 h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1rem;
+}
+
+.education .box-container .box2 p{
     font-size: 1.3rem;
     color:#eee;
     padding: 1rem 0;

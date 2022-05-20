@@ -306,16 +306,17 @@ animation-delay: calc(-1s * var(--i));
     position: relative;
     width: 400px;
     min-height: 400px;
-    background: rgba(188, 17, 255, 0.6);
+    background: rgba(116, 1, 161, 0.055);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 90%;
 }
 
 form i {
@@ -404,3 +405,7 @@ form i {
     font-weight: 600;
 }
 
+body {
+    background-image: url("gallery img/Illustrator/mntsmk.png");
+    background-size:  100%;
+}
